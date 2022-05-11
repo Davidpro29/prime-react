@@ -1,7 +1,12 @@
+import { Link } from 'react-router-dom';
+import './erro.css'
+ 
 function Erro(){
     return(
-        <div>
-            <h1>Erro de teste</h1>
+        <div className="notFound">
+            <h1>404</h1>
+            <h2>Página não encontrada</h2>
+            <Link to='/'>Ir para página de filmes</Link>
         </div>
     )
 }
